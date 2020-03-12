@@ -1,0 +1,27 @@
+{
+  "name": "challenge-node-2",
+  "version": "1.0.0",
+  "description": "Reto Node - Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "puppeteer"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-node": "^4.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}
