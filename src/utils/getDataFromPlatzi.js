@@ -22,10 +22,6 @@ async function getDataFromPlatzi(email, password, user) {
 
   const coursesFinishedCount = coursesFinished.length;
 
-  console.log(platziAvatar);
-  console.log(coursesFinished);
-  console.log(coursesFinishedCount);
-  console.log('Puppeteer End');
   await browser.close();
 
   postToSlack(user, platziAvatar, coursesFinishedCount);
