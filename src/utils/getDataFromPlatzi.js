@@ -15,14 +15,20 @@ async function getDataFromPlatzi(email, password, user) {
   ]);
   await page.goto(`https://platzi.com/${user}/`, { waitUntil: 'networkidle0' });
   await page.click('[class="SeeMore"]');
-  const coursesFinished = await page.evaluate(() => Object.values(document.getElementsByClassName('Course is-notPrincipal')).map((course) => course.children[0].children[1].children[0].innerText).filter((courseTitle) => courseTitle.indexOf('%') === -1).length);
+
+  const coursesFinished = await page.evaluate(() => Object.values(document.getElementsByClassName('Course is-notPrincipal')).map((course) => course.children[0].children[1].children[0].innerText).filter((courseTitle) => courseTitle.indexOf('%') === -1));
+
   const platziAvatar = await page.evaluate(() => document.getElementsByClassName('Layout--radius')[0].src);
+
+  const coursesFinishedCount = coursesFinished.length;
+
   console.log(platziAvatar);
   console.log(coursesFinished);
+  console.log(coursesFinishedCount);
   console.log('Puppeteer End');
   await browser.close();
 
-  postToSlack(user, platziAvatar, coursesFinished);
+  postToSlack(user, platziAvatar, coursesFinishedCount);
 }
 
 module.exports = getDataFromPlatzi;

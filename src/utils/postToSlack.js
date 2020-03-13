@@ -21,8 +21,6 @@ const postToSlack = async (user, photo, count) => {
     ],
   });
 
-  console.log(`*Reto Cumplido* \n ${user} \n Cursos concluidos en Platzi: ${count}`);
-
   await fetch(webhookURL, {
     method: 'POST',
     headers: {
