@@ -22,14 +22,14 @@ const postToSlack = async (user, photo, count) => {
   });
 
   console.log(`*Reto Cumplido* \n ${user} \n Cursos concluidos en Platzi: ${count}`);
-/*
+
   await fetch(webhookURL, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json; charset=UTF-8',
     },
     body: data,
-  }).then((response) => response); */
+  }).then((response) => response);
 };
 
 module.exports = postToSlack;
