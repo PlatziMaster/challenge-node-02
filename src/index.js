@@ -22,7 +22,7 @@ const callAPI = async () => {
   return data;
 };
 
-cron.schedule('3 * * * * *', () => {
+cron.schedule('3 * * * * ', () => {
   console.log('⏲️ RUNNING THE CRON');
   callAPI();
 });
