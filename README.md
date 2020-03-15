@@ -21,7 +21,7 @@ npm run lint
 
 Para usarlo necesitas tener tu correo, tu contraseña y usuario de Platzi incluyendo la arroba. Ojo: NO almacena contraseñas.
 
-Si quieres enviar a slack tus cursos de Platzi agrega un archivo .env con tu token de acceso a Slack (mira el .env-example para saber cómo generarlo). Si no cuentas con él, comenta la línea 27 del archivo getDataFromPlatzi.js y descomenta las líneas 27 y 28 del mismo archivo. 
+Si quieres enviar a slack tus cursos de Platzi agrega un archivo .env con tu token de acceso a Slack (mira el .env-example para saber cómo generarlo). Si no cuentas con él, comenta la línea 30 del archivo getDataFromPlatzi.js y descomenta las líneas 27 y 28 del mismo archivo. 
 
 ### Enviar solución de reto
 Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia este repositorio.
