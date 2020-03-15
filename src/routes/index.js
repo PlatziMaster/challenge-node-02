@@ -5,11 +5,12 @@ const low = require('lowdb');
 const FileAsync = require('lowdb/adapters/FileAsync');
 const getData = require('../../lib/index');
 
-let dir_db = 'db',
-  path_lists = path.join(dir_db, 'corona.json');
+const dir = 'db';
+const fullPath = path.join(dir, 'corona.json');
 
+// eslint-disable-next-line arrow-parens
 const api = async app => {
-  const adapter = new FileAsync(path_lists);
+  const adapter = new FileAsync(fullPath);
   const db = await low(adapter);
   const router = express.Router();
   app.use('/api', router);
