@@ -23,10 +23,10 @@ async function getDataFromPlatzi(email, password, user) {
   const coursesFinishedCount = coursesFinished.length;
 
   await browser.close();
-  
+
   //console.log(`Mis cursos terminados son: ${coursesFinished}`);
   //console.log(`En total tengo: ${coursesFinishedCount} cursos terminados`);
-  
+
   postToSlack(user, platziAvatar, coursesFinishedCount);
 }
 
