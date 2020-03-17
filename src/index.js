@@ -1,11 +1,11 @@
+/* eslint-disable no-console */
 const puppeteer = require('puppeteer');
 
-let urls = [
-  'https://platzi.com/@gndx/', 
+const urls = [
+  'https://platzi.com/@gndx/',
   'https://platzi.com/@cosmosoftroot/',
   'https://platzi.com/@gollum23/',
-  'https://platzi.com/@juandc/'
-
+  'https://platzi.com/@juandc/',
 ];
 
 const platziMasters = [];
@@ -15,9 +15,7 @@ const validateProfile = async (url) => {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await page.goto(url);
-    const validate = await page.evaluate(() =>
-      document.getElementsByTagName('title')[0].innerText.trim()
-    );
+    const validate = await page.evaluate(() => document.getElementsByTagName('title')[0].innerText.trim());
 
     await browser.close();
     return validate;
@@ -33,8 +31,10 @@ const getMaster = async (url) => {
     await page.goto(url);
     const result = await page.evaluate(() => {
       return {
-        name: document.getElementsByClassName('ProfileHeader-name')[0].innerText,
-        score: document.getElementsByClassName('ProfileScore-number')[0].innerText,
+        name: document.getElementsByClassName('ProfileHeader-name')[0]
+          .innerText,
+        score: document.getElementsByClassName('ProfileScore-number')[0]
+          .innerText,
       };
     });
     await browser.close();
@@ -45,8 +45,6 @@ const getMaster = async (url) => {
 };
 
 const initializeMasters = async (urls) => {
-  
-
   await urls.forEach(async (url) => {
     const isPrivate = await validateProfile(url);
     if (isPrivate !== 'Cuenta Privada') {
@@ -54,11 +52,9 @@ const initializeMasters = async (urls) => {
       platziMasters.push(platziMaster);
     }
   });
-
-  
 };
 
 initializeMasters(urls);
-setTimeout(()=>{
-  console.log(platziMasters)
-},25000);
+setTimeout(() => {
+  console.log(platziMasters);
+}, 25000);
