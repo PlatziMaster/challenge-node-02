@@ -1,24 +1,28 @@
 const puppeteer = require('puppeteer');
 
-const getDataFromPuppeteer = async () => {
+const URL = 'https://www.coindesk.com/price/bitcoin';
+
+const getDataFromPuppeteer = async (url) => {
   try {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
-    await page.goto('https://platzi.com');
+    await page.goto(url);
     await page.screenshot({
-      path: 'src/images/image.png'
+      path: 'src/images/image.png',
     });
     await page.pdf({
-      path: 'src/pdfs/website.pdf'
+      path: 'src/pdfs/website.pdf',
     });
-    const platziCourseTitle = await page.evaluate(() => document.getElementsByClassName('RecentCourseVideo-content')[0].children[0].innerText
-    );
-    console.log(platziCourseTitle);
-    console.log('Puppeteer End');
+    const price = await page.evaluate(() => document
+      .getElementsByClassName('price-large')[0]
+      .innerText
+      // eslint-disable-next-line comma-dangle
+      .substr(2,));
     await browser.close();
+    return price;
   } catch (error) {
-    console.log(error);
+    process.stdout.error(error);
   }
-}
+};
 
-getDataFromPuppeteer();
+getDataFromPuppeteer(URL);
