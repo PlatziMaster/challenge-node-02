@@ -9,12 +9,14 @@ const getData = async () => {
     const page = await browser.newPage();
     await page.goto(URL);
 
+    // eslint-disable-next-line comma-dangle
     const price = await page.evaluate(() => document.getElementsByClassName('price-large')[0].innerText.substr(2,));
     await browser.close();
-    if (price != 0){
-      console.log(price);
+    if (price !== 0) {
+      process.stdout.write(price);
       return price;
-    }else if(price == 0){
+    }
+    if (price === 0) {
       await getData();
     }
   } catch (error) {

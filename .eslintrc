@@ -23,9 +23,6 @@
     "ecmaVersion": 2018
   },
   "rules": {
-    "rules": {
-      "comma-dangle": [2, "always-multiline"]
-    },
     "global-require": 0,
     "array-bracket-spacing": 2,
     "arrow-body-style": 0,

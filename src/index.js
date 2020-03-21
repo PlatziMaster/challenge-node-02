@@ -2,6 +2,7 @@
 const low = require('lowdb');
 const FileAsync = require('lowdb/adapters/FileAsync');
 const path = require('path');
+
 const dir = 'db';
 const fullPath = path.join(dir, 'bitcoin.json');
 //Llamar al scrapper
@@ -12,7 +13,7 @@ const showBitcoin = async () => {
   const db = await low(adapter);
   const result = await getData();
 
-  if(result != 0){
+  if (result !== 0) {
     try {
       if (
         db.get('bitcoinTotal').size().value() > 0
@@ -35,7 +36,6 @@ const showBitcoin = async () => {
           await showBitcoin();
         }
       } else {
-        console.log('Es el ');
         post = await db
           .get('bitcoinTotal')
           .push({
