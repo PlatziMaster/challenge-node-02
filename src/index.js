@@ -11,19 +11,31 @@ const showBitcoin = async () => {
   const adapter = new FileAsync(fullPath);
   const db = await low(adapter);
   const result = await getData();
-  try {
-    if (
-      db
-        .get('bitcoinTotal')
-        .size()
-        .value() > 0
-    ) {
-      if (db.get('bitcoinTotal[0].total').value() !== result) {
-        console.log('Es diferente');
-        await db
-          .get('bitcoinTotal')
-          .remove({ id: 1 })
-          .write();
+
+  if(result != 0){
+    try {
+      if (
+        db.get('bitcoinTotal').size().value() > 0
+      ) {
+        if (db.get('bitcoinTotal[0].total').value() !== result) {
+          await db
+            .get('bitcoinTotal')
+            .remove({ id: 1 })
+            .write();
+          post = await db
+            .get('bitcoinTotal')
+            .push({
+              id: 1,
+              date: Date.now(),
+              total: result,
+            })
+            .write();
+        } else {
+          post = await db.get('bitcoinTotal[0]').value();
+          await showBitcoin();
+        }
+      } else {
+        console.log('Es el ');
         post = await db
           .get('bitcoinTotal')
           .push({
@@ -32,23 +44,9 @@ const showBitcoin = async () => {
             total: result,
           })
           .write();
-      } else {
-        console.log('Es el mismo');
-        post = await db.get('bitcoinTotal[0]').value();
-        showBitcoin();
       }
-    } else {
-      console.log('Es el ');
-      post = await db
-        .get('bitcoinTotal')
-        .push({
-          id: 1,
-          date: Date.now(),
-          total: result,
-        })
-        .write();
-    }
-  } catch (error) {}
+    } catch (error) {}
+  }
 };
 
 showBitcoin();
