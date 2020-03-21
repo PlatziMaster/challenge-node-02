@@ -1,24 +1,52 @@
-const puppeteer = require('puppeteer');
+//Instancia LowDB
+const low = require('lowdb');
+const FileAsync = require('lowdb/adapters/FileAsync');
+const path = require('path');
 
-const getDataFromPuppeteer = async () => {
-  try {
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
-    await page.goto('https://platzi.com');
-    await page.screenshot({
-      path: 'src/images/image.png'
-    });
-    await page.pdf({
-      path: 'src/pdfs/website.pdf'
-    });
-    const platziCourseTitle = await page.evaluate(() => document.getElementsByClassName('RecentCourseVideo-content')[0].children[0].innerText
-    );
-    console.log(platziCourseTitle);
-    console.log('Puppeteer End');
-    await browser.close();
-  } catch (error) {
-    console.log(error);
+const dir = 'db';
+const fullPath = path.join(dir, 'bitcoin.json');
+//Llamar al scrapper
+const getData = require('../scrapper/index');
+
+const showBitcoin = async () => {
+  const adapter = new FileAsync(fullPath);
+  const db = await low(adapter);
+  const result = await getData();
+
+  if (result !== 0) {
+    try {
+      if (
+        db.get('bitcoinTotal').size().value() > 0
+      ) {
+        if (db.get('bitcoinTotal[0].total').value() !== result) {
+          await db
+            .get('bitcoinTotal')
+            .remove({ id: 1 })
+            .write();
+          post = await db
+            .get('bitcoinTotal')
+            .push({
+              id: 1,
+              date: Date.now(),
+              total: result,
+            })
+            .write();
+        } else {
+          post = await db.get('bitcoinTotal[0]').value();
+          await showBitcoin();
+        }
+      } else {
+        post = await db
+          .get('bitcoinTotal')
+          .push({
+            id: 1,
+            date: Date.now(),
+            total: result,
+          })
+          .write();
+      }
+    } catch (error) {}
   }
-}
+};
 
-getDataFromPuppeteer();
+showBitcoin();
