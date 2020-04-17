@@ -1,24 +1,44 @@
-const puppeteer = require('puppeteer');
+const prompt = require('prompt');
+const config = require('./config');
+const getDataFromPlatzi = require('./utils/getDataFromPlatzi');
 
-const getDataFromPuppeteer = async () => {
-  try {
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
-    await page.goto('https://platzi.com');
-    await page.screenshot({
-      path: 'src/images/image.png'
-    });
-    await page.pdf({
-      path: 'src/pdfs/website.pdf'
-    });
-    const platziCourseTitle = await page.evaluate(() => document.getElementsByClassName('RecentCourseVideo-content')[0].children[0].innerText
-    );
-    console.log(platziCourseTitle);
-    console.log('Puppeteer End');
-    await browser.close();
-  } catch (error) {
-    console.log(error);
-  }
+const { email, username, password } = config;
+
+if (!email && !username && !password) {
+
+  const schema = {
+    properties: {
+      email: {
+        message: 'Ingresa tu correo',
+        required: true,
+      },
+      password: {
+        hidden: true,
+      },
+      user: {
+        message: 'Ingresa tu usuario Platzi iniciando con @ (Respeta mayúsculas y minúsculas)',
+        required: true,
+      },
+    },
+  };
+
+  prompt.get(schema, (err, result) => {
+    if (err) {
+      throw (err);
+    }
+
+    const { email, password, user } = result;
+
+    if (email && password && user) {
+      process.stdout.write('Analizando...\n');
+      getDataFromPlatzi(email, password, user);
+    }
+  });
+
+  prompt.start();
+} else {
+  process.stdout.write('Analizando...\n');
+
+  getDataFromPlatzi(email, password, username);
 }
 
-getDataFromPuppeteer();
