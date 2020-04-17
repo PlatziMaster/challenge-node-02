@@ -1,0 +1,313 @@
+En total tengo: 61 cursos terminados 
+
+Curso Avanzado de Java SE
+    https://static.platzi.com/media/achievements/1236-21df15a8-5fb9-4c82-81df-187ce86367be.png
+
+Curso Básico de Java SE 2018
+    https://static.platzi.com/media/achievements/1222-434ce348-c008-4386-b0fc-edc18b8ec5e7.png
+
+Curso Básico de MongoDB
+    https://static.platzi.com/media/achievements/badge-mongo-db-5f684168-798f-42ad-a17c-2e8f0c40a477.png
+
+Curso de Administración de Actividades con Trello
+    https://static.platzi.com/media/achievements/1400-140d7631-f476-46cf-afa4-8368c9ecf340.png
+
+Curso de Atención al Cliente y Soporte a Usuarios
+    https://static.platzi.com/media/achievements/1282-0e968fd9-e8d4-406c-999b-940608e2b01a.png
+
+Curso de Asincronismo con JavaScript
+    https://static.platzi.com/media/achievements/badge-asincronismo-javascript-3f44d51e-209e-4e47-a228-4142d049525c.png
+
+Curso de Backend con Node.js
+    https://static.platzi.com/media/achievements/badge-backend-node-8e6aa8a9-f7cd-42b7-bf4a-e1ee916a942b.png
+
+Curso de Autenticación con Passport.js
+    https://static.platzi.com/media/achievements/badge-autenticacion-passport-6d45426a-2b24-4757-8927-7bfaf54529dd.png
+
+Curso de Buenas Prácticas para Escritura de Código
+    https://static.platzi.com/media/achievements/badge-buenas-practicas-escritura-codigo-fcdbd219-8bd1-4578-ac07-b5abccf6e3b8.png
+
+Curso de Capacitación para Equipos
+    https://static.platzi.com/media/achievements/badges-capacitacion-equipo-02381d7c-b0e7-4451-838d-702579a9628b.png
+
+Curso de Closures y Scope en JavaScript
+    https://static.platzi.com/media/achievements/badge-_closures-scope-javascript-3848a8e7-cf6f-47c5-a824-df5fc0c14d41.png
+
+Curso de Cloud Computing con AWS
+    https://static.platzi.com/media/achievements/badges-computo-aws-08dc8f87-552f-4954-b956-2eacdfc94a88.png
+
+Curso de Comunicación Efectiva para Equipos
+    https://static.platzi.com/media/achievements/badge-comunicacion-efectiva-a1d71b51-aca4-4e53-8d6e-a3829c28dfa3.png
+
+Curso de Comunicación Online con Slack
+    https://static.platzi.com/media/achievements/badges-comunicacion-slack-a9bd2f28-82f2-4fef-8d67-6cec70724d94.png
+
+Curso Básico de GraphQL
+    https://static.platzi.com/media/achievements/badge-graphql-2e658b66-c0b9-4b33-8f84-c1b7311be302.png
+
+Curso de Desarrollo Web Online
+    https://static.platzi.com/media/achievements/1350-09ddb033-354b-4c0c-84a4-56cbb71d0b08.png
+
+Curso de CSS Grid Layout
+    https://static.platzi.com/media/achievements/1229-dbff8a06-bcca-48e9-98e3-1fd76d6216f3.png
+
+Curso de ECMAScript 6+
+    https://static.platzi.com/media/achievements/badge-ecmascript-6-d48e7bb7-a7a4-416d-a3b4-e11f0b13a229.png
+
+Curso de Estrategias para Aprender en Línea Efectivamente
+    https://static.platzi.com/media/achievements/badge-estrategias-aprender-enlinea-df2bec85-990c-4afb-964c-8fb2dfbd1c2e.png
+
+Curso de Express.js
+    https://static.platzi.com/media/achievements/badges-express-43987e06-2d8c-4f0d-89d4-c4aecd2135dd.png
+
+Curso de Finanzas Personales
+    https://static.platzi.com/media/achievements/badge-finanzas-personales-af9971ca-d6ce-403c-a940-8ecfd0de71f3.png
+
+Curso de Fundamentos de AWS Cloud
+    https://static.platzi.com/media/achievements/1323-b1cdbbea-6d17-4d0d-a3d1-ec8b5700dae6.png
+
+Curso de Google Suite
+    https://static.platzi.com/media/achievements/1401-1aa3b4ef-6dc1-4995-894a-f8ac475de6eb.png
+
+Curso de Inglés Básico: Conversación
+    https://static.platzi.com/media/achievements/1371-db5ea3c7-4ac9-4b61-b786-9346ebb3fc7f.png
+
+Curso de Inglés Básico: Gramática
+    https://static.platzi.com/media/achievements/1370-836f01ea-6748-4c9f-a8e0-ce51c7c28d0b.png
+
+Curso de Inglés Básico para Principiantes
+    https://static.platzi.com/media/achievements/badge-basico-ingles-e073f711-763d-4129-badc-5e4baa78b225.png
+
+Curso de Inglés Fácil, Práctico y Cotidiano
+    https://static.platzi.com/media/achievements/badges-ingles-practico-cotidiano-09aba6ec-502d-4219-9603-5540d466f4ed.png
+
+Curso de Integración Backend con Frontend 2019
+    https://static.platzi.com/media/achievements/badge-backend-frontend-1-fa996c02-201a-43ff-b4bc-41bb6ce35b1d.png
+
+Curso de Marca Personal
+    https://static.platzi.com/media/achievements/1220-da04fca8-8561-40ce-a678-3585bde8d899.png
+
+Curso de Liderazgo para Equipos de Trabajo
+    https://static.platzi.com/media/achievements/1300-2d2cc631-d673-47c5-a062-1adf6e7dd2c0.png
+
+Curso de Ortografía Básica
+    https://static.platzi.com/media/achievements/1396-e6d37f15-de5c-48b1-af5d-7bc7b75650ab.png
+
+Curso de Pensamiento Lógico
+    https://static.platzi.com/media/achievements/badges-pensamiento-logico-3e33eb45-302d-408a-a624-bee4e57118d3.png
+
+Curso de Prework: Buenas Prácticas y Entorno de Desarrollo
+    https://static.platzi.com/media/achievements/badge-prework-da6b0493-9908-40f3-ad53-f5d330b995b8.png
+
+Curso de Postman
+    https://static.platzi.com/media/achievements/badge-postaman-4d6e9a21-4553-4f0e-8e5d-6592b1151988.png
+
+Curso de React Router y Redux
+    https://static.platzi.com/media/achievements/badge-react-redux-2ca3c0a5-fc53-437f-bfba-69e9ddd5a803.png
+
+Curso de React.js 2017
+    https://static.platzi.com/media/achievements/1199-30a6737c-9964-49bd-a604-5933a81114e8.png
+
+Curso de Responsive Design
+    https://static.platzi.com/media/achievements/1362-87c8ad3d-a50d-41a2-b023-ad838594e1c9.png
+
+Curso de Sass
+    https://static.platzi.com/media/achievements/1244-caa8d210-5abc-4728-b21a-609a23a572a7.png
+
+Curso de Server Side Render con Express 2019
+    https://static.platzi.com/media/achievements/badge-server-side-render-dec727dc-c4b2-4beb-a1d1-d43f614d7818.png
+
+Curso de Single Page Application con JavaScript Vanilla
+    https://static.platzi.com/media/achievements/badge-spa-javascript-vanilla-71b296fc-7041-4084-9f94-0ed5e1b53d18.png
+
+Curso de SQL y MySQL
+    https://static.platzi.com/media/achievements/1272-15ff4836-0221-4001-b945-5cf34bd65bab.png
+
+Curso de Unit Testing con Jest en React
+    https://static.platzi.com/media/achievements/badge-unit-testing-jest-react-bb2bcb68-aeb7-4ff3-886e-f04816dfe0a0.png
+
+Curso Gratis de Marketing Voz a Voz 2016
+    https://static.platzi.com/media/achievements/badgeWOM.png
+
+Curso Gratis de Programación Básica
+    https://static.platzi.com/media/achievements/1050-bfb74f83-8e2e-4ff7-a66d-77d2c0067908.png
+
+Curso para Triunfar en Entrevistas de Trabajo
+    https://static.platzi.com/media/achievements/badge-triunfar-entrevistas-trabajo-1-7780bb8b-8fb2-42ad-a787-ac8d56af545c.png
+
+Curso Práctico de HTML y CSS
+    https://static.platzi.com/media/achievements/badge-practico-html-css-1-106665ee-bf4f-4301-8991-1fab9e54a73e.png
+
+Curso Práctico de Maquetación en CSS
+    https://static.platzi.com/media/achievements/badge-css-grid-91153317-c981-4a38-a534-b651b4395267.png
+
+Curso Práctico de Node.js
+    https://static.platzi.com/media/achievements/badge-practico-nodejs-c09b11c0-4ca0-43ce-a13c-aeaad6921778.png
+
+Curso Práctico de React JS
+    https://static.platzi.com/media/achievements/badge-react-adec89d0-1c35-4c9c-847e-18c284dc79dd.png
+
+Curso Profesional de DevOps
+    https://static.platzi.com/media/achievements/badge-devops-d3e8b2ef-b2ef-4a16-8a4a-ac0e6953b054.png
+
+Curso profesional de Git y GitHub 2017
+    https://static.platzi.com/media/achievements/badge-github-c53a39e6-772b-4e41-b3c4-223bb252fbd6.png
+
+Curso Profesional de JavaScript
+    https://static.platzi.com/media/achievements/badge-profesional-javascript-13538df2-24ce-433f-9aa6-e34eed608e70.png
+
+Fundamentos de JavaScript
+    https://static.platzi.com/media/achievements/badge-fundamentos-javascript-61c15bdf-0a83-4aed-8537-b4753e4071e1.png
+
+Introducción a Terminal y Línea de Comandos 2019
+    https://static.platzi.com/media/achievements/1276-62e97e39-63d1-4139-b299-fc5eb65a9905.png
+
+Taller: Consigue el trabajo de tus sueños
+    https://static.platzi.com/media/achievements/badge-taller-conseguir-trabajo-f6e576d4-6075-4873-943c-51e741c4daa4.png
+
+Taller de Creación de Router para Single Page App con JavaScript
+    https://static.platzi.com/media/achievements/badge-router-single-page-app-js-ac0b8cfa-7bc8-4010-a9df-7500e5c1e078.png
+
+Curso de Inglés Técnico para Profesionales
+    https://static.platzi.com/media/achievements/1188-ea5968c2-aedf-436c-bd94-9141a594770f.png
+
+Curso de Escritura en Inglés
+    https://static.platzi.com/media/achievements/1279-7f312ce2-8e15-41ce-b8e0-99ec325010ca.png
+
+Curso de Redux 2018
+    https://static.platzi.com/media/achievements/1200-9b35ba7a-e14c-462e-9cf0-9684c10af48c.png
+
+Curso de Frontend Developer
+    https://static.platzi.com/media/achievements/badge-frontend-developer-8a49e681-3e22-408d-b886-2f47dfc9953a.png
+
+Curso de Gestión de Dependencias y Paquetes con NPM
+    https://static.platzi.com/media/achievements/badge-gestion-dependencias-paquetes-npm-f02e4608-c688-4d99-aa6d-293ea6c0be8d.png
+
+En total tengo: 61 cursos terminados 
+Curso Avanzado de Java SE https://static.platzi.com/media/achievements/1236-21df15a8-5fb9-4c82-81df-187ce86367be.png
+
+Curso Básico de GraphQL https://static.platzi.com/media/achievements/badge-graphql-2e658b66-c0b9-4b33-8f84-c1b7311be302.png
+
+Curso Básico de Java SE 2018 https://static.platzi.com/media/achievements/1222-434ce348-c008-4386-b0fc-edc18b8ec5e7.png
+
+Curso Básico de MongoDB https://static.platzi.com/media/achievements/badge-mongo-db-5f684168-798f-42ad-a17c-2e8f0c40a477.png
+
+Curso de Administración de Actividades con Trello https://static.platzi.com/media/achievements/1400-140d7631-f476-46cf-afa4-8368c9ecf340.png
+
+Curso de Asincronismo con JavaScript https://static.platzi.com/media/achievements/badge-asincronismo-javascript-3f44d51e-209e-4e47-a228-4142d049525c.png
+
+Curso de Atención al Cliente y Soporte a Usuarios https://static.platzi.com/media/achievements/1282-0e968fd9-e8d4-406c-999b-940608e2b01a.png
+
+Curso de Autenticación con Passport.js https://static.platzi.com/media/achievements/badge-autenticacion-passport-6d45426a-2b24-4757-8927-7bfaf54529dd.png
+
+Curso de Backend con Node.js https://static.platzi.com/media/achievements/badge-backend-node-8e6aa8a9-f7cd-42b7-bf4a-e1ee916a942b.png
+
+Curso de Buenas Prácticas para Escritura de Código https://static.platzi.com/media/achievements/badge-buenas-practicas-escritura-codigo-fcdbd219-8bd1-4578-ac07-b5abccf6e3b8.png
+
+Curso de Capacitación para Equipos https://static.platzi.com/media/achievements/badges-capacitacion-equipo-02381d7c-b0e7-4451-838d-702579a9628b.png
+
+Curso de Closures y Scope en JavaScript https://static.platzi.com/media/achievements/badge-_closures-scope-javascript-3848a8e7-cf6f-47c5-a824-df5fc0c14d41.png
+
+Curso de Cloud Computing con AWS https://static.platzi.com/media/achievements/badges-computo-aws-08dc8f87-552f-4954-b956-2eacdfc94a88.png
+
+Curso de Comunicación Efectiva para Equipos https://static.platzi.com/media/achievements/badge-comunicacion-efectiva-a1d71b51-aca4-4e53-8d6e-a3829c28dfa3.png
+
+Curso de Comunicación Online con Slack https://static.platzi.com/media/achievements/badges-comunicacion-slack-a9bd2f28-82f2-4fef-8d67-6cec70724d94.png
+
+Curso de CSS Grid Layout https://static.platzi.com/media/achievements/1229-dbff8a06-bcca-48e9-98e3-1fd76d6216f3.png
+
+Curso de Desarrollo Web Online https://static.platzi.com/media/achievements/1350-09ddb033-354b-4c0c-84a4-56cbb71d0b08.png
+
+Curso de ECMAScript 6+ https://static.platzi.com/media/achievements/badge-ecmascript-6-d48e7bb7-a7a4-416d-a3b4-e11f0b13a229.png
+
+Curso de Escritura en Inglés https://static.platzi.com/media/achievements/1279-7f312ce2-8e15-41ce-b8e0-99ec325010ca.png
+
+Curso de Estrategias para Aprender en Línea Efectivamente https://static.platzi.com/media/achievements/badge-estrategias-aprender-enlinea-df2bec85-990c-4afb-964c-8fb2dfbd1c2e.png
+
+Curso de Express.js https://static.platzi.com/media/achievements/badges-express-43987e06-2d8c-4f0d-89d4-c4aecd2135dd.png
+
+Curso de Finanzas Personales https://static.platzi.com/media/achievements/badge-finanzas-personales-af9971ca-d6ce-403c-a940-8ecfd0de71f3.png
+
+Curso de Frontend Developer https://static.platzi.com/media/achievements/badge-frontend-developer-8a49e681-3e22-408d-b886-2f47dfc9953a.png
+
+Curso de Fundamentos de AWS Cloud https://static.platzi.com/media/achievements/1323-b1cdbbea-6d17-4d0d-a3d1-ec8b5700dae6.png
+
+Curso de Gestión de Dependencias y Paquetes con NPM https://static.platzi.com/media/achievements/badge-gestion-dependencias-paquetes-npm-f02e4608-c688-4d99-aa6d-293ea6c0be8d.png
+
+Curso de Google Suite https://static.platzi.com/media/achievements/1401-1aa3b4ef-6dc1-4995-894a-f8ac475de6eb.png
+
+Curso de Inglés Básico: Conversación https://static.platzi.com/media/achievements/1371-db5ea3c7-4ac9-4b61-b786-9346ebb3fc7f.png
+
+Curso de Inglés Básico: Gramática https://static.platzi.com/media/achievements/1370-836f01ea-6748-4c9f-a8e0-ce51c7c28d0b.png
+
+Curso de Inglés Básico para Principiantes https://static.platzi.com/media/achievements/badge-basico-ingles-e073f711-763d-4129-badc-5e4baa78b225.png
+
+Curso de Inglés Fácil, Práctico y Cotidiano https://static.platzi.com/media/achievements/badges-ingles-practico-cotidiano-09aba6ec-502d-4219-9603-5540d466f4ed.png
+
+Curso de Inglés Técnico para Profesionales https://static.platzi.com/media/achievements/1188-ea5968c2-aedf-436c-bd94-9141a594770f.png
+
+Curso de Integración Backend con Frontend 2019 https://static.platzi.com/media/achievements/badge-backend-frontend-1-fa996c02-201a-43ff-b4bc-41bb6ce35b1d.png
+
+Curso de Liderazgo para Equipos de Trabajo https://static.platzi.com/media/achievements/1300-2d2cc631-d673-47c5-a062-1adf6e7dd2c0.png
+
+Curso de Marca Personal https://static.platzi.com/media/achievements/1220-da04fca8-8561-40ce-a678-3585bde8d899.png
+
+Curso de Ortografía Básica https://static.platzi.com/media/achievements/1396-e6d37f15-de5c-48b1-af5d-7bc7b75650ab.png
+
+Curso de Pensamiento Lógico https://static.platzi.com/media/achievements/badges-pensamiento-logico-3e33eb45-302d-408a-a624-bee4e57118d3.png
+
+Curso de Postman https://static.platzi.com/media/achievements/badge-postaman-4d6e9a21-4553-4f0e-8e5d-6592b1151988.png
+
+Curso de Prework: Buenas Prácticas y Entorno de Desarrollo https://static.platzi.com/media/achievements/badge-prework-da6b0493-9908-40f3-ad53-f5d330b995b8.png
+
+Curso de React.js 2017 https://static.platzi.com/media/achievements/1199-30a6737c-9964-49bd-a604-5933a81114e8.png
+
+Curso de React Router y Redux https://static.platzi.com/media/achievements/badge-react-redux-2ca3c0a5-fc53-437f-bfba-69e9ddd5a803.png
+
+Curso de Redux 2018 https://static.platzi.com/media/achievements/1200-9b35ba7a-e14c-462e-9cf0-9684c10af48c.png
+
+Curso de Responsive Design https://static.platzi.com/media/achievements/1362-87c8ad3d-a50d-41a2-b023-ad838594e1c9.png
+
+Curso de Sass https://static.platzi.com/media/achievements/1244-caa8d210-5abc-4728-b21a-609a23a572a7.png
+
+Curso de Server Side Render con Express 2019 https://static.platzi.com/media/achievements/badge-server-side-render-dec727dc-c4b2-4beb-a1d1-d43f614d7818.png
+
+Curso de Single Page Application con JavaScript Vanilla https://static.platzi.com/media/achievements/badge-spa-javascript-vanilla-71b296fc-7041-4084-9f94-0ed5e1b53d18.png
+
+Curso de SQL y MySQL https://static.platzi.com/media/achievements/1272-15ff4836-0221-4001-b945-5cf34bd65bab.png
+
+Curso de Unit Testing con Jest en React https://static.platzi.com/media/achievements/badge-unit-testing-jest-react-bb2bcb68-aeb7-4ff3-886e-f04816dfe0a0.png
+
+Curso Gratis de Marketing Voz a Voz 2016 https://static.platzi.com/media/achievements/badgeWOM.png
+
+Curso Gratis de Programación Básica https://static.platzi.com/media/achievements/1050-bfb74f83-8e2e-4ff7-a66d-77d2c0067908.png
+
+Curso para Triunfar en Entrevistas de Trabajo https://static.platzi.com/media/achievements/badge-triunfar-entrevistas-trabajo-1-7780bb8b-8fb2-42ad-a787-ac8d56af545c.png
+
+Curso Práctico de HTML y CSS https://static.platzi.com/media/achievements/badge-practico-html-css-1-106665ee-bf4f-4301-8991-1fab9e54a73e.png
+
+Curso Práctico de Maquetación en CSS https://static.platzi.com/media/achievements/badge-css-grid-91153317-c981-4a38-a534-b651b4395267.png
+
+Curso Práctico de Node.js https://static.platzi.com/media/achievements/badge-practico-nodejs-c09b11c0-4ca0-43ce-a13c-aeaad6921778.png
+
+Curso Práctico de React JS https://static.platzi.com/media/achievements/badge-react-adec89d0-1c35-4c9c-847e-18c284dc79dd.png
+
+Curso Profesional de DevOps https://static.platzi.com/media/achievements/badge-devops-d3e8b2ef-b2ef-4a16-8a4a-ac0e6953b054.png
+
+Curso profesional de Git y GitHub 2017 https://static.platzi.com/media/achievements/badge-github-c53a39e6-772b-4e41-b3c4-223bb252fbd6.png
+
+Curso Profesional de JavaScript https://static.platzi.com/media/achievements/badge-profesional-javascript-13538df2-24ce-433f-9aa6-e34eed608e70.png
+
+Fundamentos de JavaScript https://static.platzi.com/media/achievements/badge-fundamentos-javascript-61c15bdf-0a83-4aed-8537-b4753e4071e1.png
+
+Introducción a Terminal y Línea de Comandos 2019 https://static.platzi.com/media/achievements/1276-62e97e39-63d1-4139-b299-fc5eb65a9905.png
+
+Taller: Consigue el trabajo de tus sueños https://static.platzi.com/media/achievements/badge-taller-conseguir-trabajo-f6e576d4-6075-4873-943c-51e741c4daa4.png
+
+Taller de Creación de Router para Single Page App con JavaScript https://static.platzi.com/media/achievements/badge-router-single-page-app-js-ac0b8cfa-7bc8-4010-a9df-7500e5c1e078.png
+
+En total tengo: 61 cursos terminados 
+En total tengo: 61 cursos terminados 
+En total tengo: 61 cursos terminados 
+En total tengo: 61 cursos terminados 
+En total tengo: 61 cursos terminados 
