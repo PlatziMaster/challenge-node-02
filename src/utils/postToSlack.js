@@ -1,5 +1,5 @@
 const fetch = require('node-fetch');
-const config = require('../config/config');
+const config = require('../config');
 
 const postToSlack = async (user, photo, count) => {
   const { webhookURL } = config;
