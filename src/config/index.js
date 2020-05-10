@@ -7,4 +7,4 @@ const config = {
   numDestination: process.env.NUM_DESTINATION,
 };
 
-module.exports = { config };
+module.exports = config ;

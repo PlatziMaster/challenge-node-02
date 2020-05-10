@@ -28,13 +28,16 @@ const validateRecord = ({records},value) =>{
 }
 
 const addRecord = async (value) =>{
-    const record = {
-        value, timestamp: getTime()
-    }
+
     let data = getData();
     if(validateRecord(data, value)){
+        const record = {
+            value, timestamp: getTime()
+        }
+        
         data.records = [...data.records,record]
         writeData(data)
+        console.log(`La temperatura actual en poza rica es ${value}`);
         sendSMS(value)
     }
 }
