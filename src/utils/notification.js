@@ -1,4 +1,4 @@
-const { config } = require('../config');
+const config  = require('../config');
 const client = require('twilio')(config.twilioSID, config.twilioToken);
 
 const sendSMS = async (record) => {
