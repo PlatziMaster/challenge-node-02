@@ -15,7 +15,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "^2.1.1"
+    "dotenv": "^8.2.0",
+    "puppeteer": "^2.1.1",
+    "twilio": "^3.43.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
