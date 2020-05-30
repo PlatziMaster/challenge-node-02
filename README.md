@@ -1,6 +1,6 @@
 # challenge-node-02
 
-Es te reto requiere ver la sesión técnica "[Web Scraping with Puppeteer](https://platzi.com/clases/1819-platzi-master/27353-web-scraping-with-puppeteer/)".
+Este reto requiere ver la sesión técnica "[Web Scraping with Puppeteer](https://platzi.com/clases/1819-platzi-master/27353-web-scraping-with-puppeteer/)".
 
 ### Retos
 
@@ -25,7 +25,7 @@ npm run lint
 ```
 
 ### Enviar solución de reto
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia este repositorio.
+Debes de crear un "Fork" de este proyecto, resolver los problemas y crear un Pull Request hacia este repositorio.
 
 ### Contribuir
 Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [challenge-node-02](https://github.com/platzimaster/challenge-node-02/)
