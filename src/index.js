@@ -1,24 +1,31 @@
 const puppeteer = require('puppeteer');
 
+const { CronJob } = require('cron');
+
+let change = 0;
+
 const getDataFromPuppeteer = async () => {
   try {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
-    await page.goto('https://platzi.com');
-    await page.screenshot({
-      path: 'src/images/image.png'
-    });
-    await page.pdf({
-      path: 'src/pdfs/website.pdf'
-    });
-    const platziCourseTitle = await page.evaluate(() => document.getElementsByClassName('RecentCourseVideo-content')[0].children[0].innerText
-    );
-    console.log(platziCourseTitle);
-    console.log('Puppeteer End');
-    await browser.close();
-  } catch (error) {
-    console.log(error);
-  }
-}
+    await page.goto('https://www.worldometers.info/world-population/mexico-population/');
 
-getDataFromPuppeteer();
+    mexicoPopulation = await page.evaluate(() => document.getElementsByClassName('rts-counter')[0].innerText);
+
+    if (change !== mexicoPopulation) {
+      console.log(mexicoPopulation); // eslint-disable-line
+    }
+
+    change = mexicoPopulation;
+
+    await browser.close();
+
+  } catch (error) {
+    throw new Error(error);
+  }
+};
+
+const job = new CronJob('*/10 * * * * *', async function () { // eslint-disable-line
+  await getDataFromPuppeteer();
+});
+job.start();

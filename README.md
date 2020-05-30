@@ -1,6 +1,6 @@
 # challenge-node-02
 
-Es te reto requiere ver la sesión técnica "[Web Scraping with Puppeteer](https://platzi.com/clases/1819-platzi-master/27353-web-scraping-with-puppeteer/)".
+Este reto requiere ver la sesión técnica "[Web Scraping with Puppeteer](https://platzi.com/clases/1819-platzi-master/27353-web-scraping-with-puppeteer/)".
 
 ### Retos
 
