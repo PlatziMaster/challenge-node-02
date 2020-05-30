@@ -8,6 +8,7 @@ const getDataFromPuppeteer = async () => {
     const page = await browser.newPage();
     await page.goto('https://platzi.com');
 
+    // Get the last released course from Platzi
     lastReleasedCourse = await page.$$eval(
       '.RecentCourses-content h3',
       (nodes) => {

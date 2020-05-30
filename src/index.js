@@ -10,11 +10,10 @@ async function startScrapper() {
   // Get last released course from Platzi
   const lastReleasedCourse = await getDatFromPuppeteer();
 
-  // Get stored course
+  // Get stored course from db
   const storedCourse = api.getCourse();
 
-  // If stored course is the same that fetched
-  // Makes nothing
+  // If stored course is the same that fetched makes nothing
   if (lastReleasedCourse === storedCourse) {
     console.log(bold('Nothing to save. I will search later!'));
     return;
@@ -26,17 +25,20 @@ async function startScrapper() {
   console.log(bold().cyan(`${lastReleasedCourse}`));
 }
 
-// After run start schedule a job to run the process again
+// Create scheduled task
 const task = new CronJob(
   // Scheduled to run every minute
   // You can adjust the time taken into account parameters
-  // seg min hour day weekDay monthDay
+  // seg min hour day monthDay weekDay
   // For example '0 0 17 * * */4' runs every Thursday at 5:00pm
   '0 */1 * * * *',
   // Function to run
   startScrapper,
+  // onComplete
   null,
+  // Run automatically
   false,
+  // Timezone
   'America/Bogota',
 );
 

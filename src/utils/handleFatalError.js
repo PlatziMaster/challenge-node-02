@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 const { bold } = require('kleur');
 
-// Handle errors and end the process
+// Handle errors and finish the process
 function handleFatalError(error) {
   console.log(bold('Something was wrong. Process finished'));
   console.log(bold().red(`[Error]: ${error.message}`));

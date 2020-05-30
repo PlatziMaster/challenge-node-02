@@ -13,6 +13,9 @@ Este reto requiere ver la sesión técnica "[Web Scraping with Puppeteer](https:
 
 Para la solución del reto elegí [Platzi](https://platzi.com). Cuando el script es ejecutado, el scrapper queda programado para buscar en la página el titulo del último curso lanzado y lo almacena usando [lowdb](https://github.com/typicode/lowdb) en un archivo `db.json`. Si el título que recibe es el mismo que ya tenía almacenado no lo guarda nuevamente.
 
+#### Nota:
+Por fines prácticos el script programa al scrapper para ejecutarse cada minuto. El tiempo se puede ajustar en el archivo `src/index.js`.
+
 ### Instalación
 ```
 npm install
