@@ -9,6 +9,10 @@ Este reto requiere ver la sesión técnica "[Web Scraping with Puppeteer](https:
 3. Crea un CronJob para ejecutar tu script y revise si el valor a cambiado.
 4. Mostrar un mensaje en consola con el nuevo valor almacenado.
 
+### Solución
+
+Para la solución del reto elegí [Platzi](https://platzi.com). Cuando el script es ejecutado, el scrapper queda programado para buscar en la página el titulo del último curso lanzado y lo almacena usando [lowdb](https://github.com/typicode/lowdb) en un archivo `db.json`. Si el título que recibe es el mismo que ya tenía almacenado no lo guarda nuevamente.
+
 ### Instalación
 ```
 npm install
