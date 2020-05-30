@@ -1,24 +1,50 @@
-const puppeteer = require('puppeteer');
+/* eslint-disable no-console */
+const { CronJob } = require('cron');
+const { bold } = require('kleur');
 
-const getDataFromPuppeteer = async () => {
-  try {
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
-    await page.goto('https://platzi.com');
-    await page.screenshot({
-      path: 'src/images/image.png'
-    });
-    await page.pdf({
-      path: 'src/pdfs/website.pdf'
-    });
-    const platziCourseTitle = await page.evaluate(() => document.getElementsByClassName('RecentCourseVideo-content')[0].children[0].innerText
-    );
-    console.log(platziCourseTitle);
-    console.log('Puppeteer End');
-    await browser.close();
-  } catch (error) {
-    console.log(error);
+const getDatFromPuppeteer = require('./utils/scrapper');
+const api = require('./utils/api');
+const handleFatalError = require('./utils/handleFatalError');
+
+async function startScrapper() {
+  // Get last released course from Platzi
+  const lastReleasedCourse = await getDatFromPuppeteer();
+
+  // Get stored course from db
+  const storedCourse = api.getCourse();
+
+  // If stored course is the same that fetched makes nothing
+  if (lastReleasedCourse === storedCourse) {
+    console.log(bold('Nothing to save. I will search later!'));
+    return;
   }
+
+  // Update the db with fetched course
+  api.updateCourse(lastReleasedCourse);
+  console.log(bold().green('There is a new release:'));
+  console.log(bold().cyan(`${lastReleasedCourse}`));
 }
 
-getDataFromPuppeteer();
+// Create scheduled task
+const task = new CronJob(
+  // Scheduled to run every minute
+  // You can adjust the time taken into account parameters
+  // seg min hour day monthDay weekDay
+  // For example '0 0 17 * * */4' runs every Thursday at 5:00pm
+  '0 */1 * * * *',
+  // Function to run
+  startScrapper,
+  // onComplete
+  null,
+  // Run automatically
+  false,
+  // Timezone
+  'America/Bogota',
+);
+
+// Run the schedule task
+task.start();
+
+// Handle errors
+process.on('unhandledRejection', handleFatalError);
+process.on('uncaughtException', handleFatalError);
