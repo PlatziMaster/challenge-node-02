@@ -1,24 +1,22 @@
+/* eslint-disable no-console */
 const puppeteer = require('puppeteer');
+const cron = require('node-cron');
 
-const getDataFromPuppeteer = async () => {
+const getStatsFromTweets = async () => {
   try {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
-    await page.goto('https://platzi.com');
-    await page.screenshot({
-      path: 'src/images/image.png'
-    });
-    await page.pdf({
-      path: 'src/pdfs/website.pdf'
-    });
-    const platziCourseTitle = await page.evaluate(() => document.getElementsByClassName('RecentCourseVideo-content')[0].children[0].innerText
-    );
-    console.log(platziCourseTitle);
-    console.log('Puppeteer End');
+    await page.goto('https://www.internetlivestats.com/');
+    const tweets = await page.evaluate(() => document.getElementsByClassName('counter')[5].innerText);
+
+    console.log(`Hasta el momento se han enviado ${tweets} Tweets 🐦`);
+
     await browser.close();
   } catch (error) {
     console.log(error);
   }
-}
+};
 
-getDataFromPuppeteer();
+cron.schedule('*/1 * * * *', async () => {
+  await getStatsFromTweets();
+});
