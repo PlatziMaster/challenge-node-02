@@ -1,6 +1,6 @@
 # challenge-node-02
 
-Es te reto requiere ver la sesión técnica "[Web Scraping with Puppeteer](https://platzi.com/clases/1819-platzi-master/27353-web-scraping-with-puppeteer/)".
+Solucion al reto de "[Web Scraping with Puppeteer](https://platzi.com/clases/1819-platzi-master/27353-web-scraping-with-puppeteer/)".
 
 ### Retos
 
@@ -8,21 +8,6 @@ Es te reto requiere ver la sesión técnica "[Web Scraping with Puppeteer](https
 2. Almacena un elemento del DOM que cambie constantemente
 3. Crea un CronJob para ejecutar tu script y revise si el valor a cambiado.
 4. Mostrar un mensaje en consola con el nuevo valor almacenado.
-
-### Instalación
-```
-npm install
-```
-
-### Ejecución
-```
-npm run start
-```
-
-### ESlint
-```
-npm run lint
-```
 
 ### Enviar solución de reto
 Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia este repositorio.
