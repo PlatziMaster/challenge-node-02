@@ -1,6 +1,6 @@
-# challenge-node-02
+### Aplicativo
 
-Es te reto requiere ver la sesión técnica "[Web Scraping with Puppeteer](https://platzi.com/clases/1819-platzi-master/27353-web-scraping-with-puppeteer/)".
+El proyecto consulta la pagina del grupo aval para consultar el precio del dolar  y alertar  si este precio ha cambiado.
 
 ### Retos
 
