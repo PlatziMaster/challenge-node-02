@@ -6,6 +6,9 @@ const getDataFromPuppeteer = async () => {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await page.goto('https://bing.com/covid');
+    await page.screenshot({
+      path: 'src/images/image.png',
+    });
     const bingCOVID19 = await page.evaluate(() => document.getElementsByClassName('infoTileConfirmed')[0].children[0].innerHTML);
     // eslint-disable-next-line no-console
     console.log(`Total confirmated cases of COVID-19 ${bingCOVID19}`);
@@ -16,7 +19,7 @@ const getDataFromPuppeteer = async () => {
   }
 };
 
-cronJob = cron.schedule('*/1 * * * *', () => {
+cron.schedule('*/1 * * * *', () => {
   getDataFromPuppeteer();
 });
 
