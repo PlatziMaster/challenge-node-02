@@ -13,11 +13,10 @@ const getDataFromPuppeteer = async () => {
       path: 'src/pdfs/website.pdf',
     });
     const newsTitle = await page.evaluate(() => document.querySelectorAll('.mnmd-news-ticker__content ul')[0].children[0].querySelector('.post .post__title').innerText);
-    console.log(newsTitle);
-    console.log('Puppeteer End');
+    process.stdout.write(`${newsTitle}\n`);
     await browser.close();
   } catch (error) {
-    console.log(error);
+    process.stdout.write('\n error ::', error);
   }
 };
 
